@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+   background-color: #f1f1f1;
+   font-family: 'Lato';
+   font-style: normal;
+}
+ul.top {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	top: 0;
+	left: 0;
+	padding-top: 25px;
+	padding-bottom: 8px;
+	padding-left: 100px;
+	width: 100%;
+	position: fixed;
+    background-color: #f1f1f1;
+	box-shadow: 0px 3px 3px #8c8c8c;
+}
+li.top {
+	float: left;
+}
+li.logo {
+	float: left;
+    display: block;
+    color: black;
+    text-align: left;
+	font-weight: 100;
+    padding: 0px 40px;
+    font-style: italic;
+	font-size: 230%;
+}
+li.top a {
+    display: block;
+    color: black;
+    text-align: center;
+	font-weight: 300;
+    padding: 12px 40px;
+    text-decoration: none;
+}
+li.top a:hover {
+    background-color: #555;
+    color: white;
+}
+li.top a.active {
+    text-decoration: underline;
+}
+div.bodyText {
+   width: 70%;
+   margin-left: 15%;
+   margin-right: 15%;
+   font-size: 150%;
+   text-align: center;
+   padding-top: 85px;
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+:root {
+ --head-bg: #073642;
+ --body-bg-central: #eee8d5;
+ --body-bg-out: #93a1a1;
+ --body-text: #839496;
+ --head-text: #b58900;
+ --head-text-h: black;
+}
+html {
+    height: 100%;
+}
+body {
+	font-family: 'Lato';
+	font-style: normal;
+	height: 100%;
+}
+/* General utility classes */
+.uppercase {
+	text-transform: uppercase
+}
+.lowercase {
+	text-transform: lowercase
+}
+#page {
+	min-height: 100%;
+	height: 100%;
+}
+/* Navbar definitions */
+#navbar {
+	background-color: var(--head-bg);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 4.5em;
+	position: fixed;
+	box-shadow: 0px 3px 3px #8c8c8c;
+}
+ul.top {
+	list-style-type: none;
+	overflow: hidden;
+	height: 2.5em;
+	left: 0px;
+	padding: 0% 5%;
+	margin-top: 1em;
+	background-color: var(--head-bg);
+}
+li.top {
+	float: left;
+}
+li.logo {
+	float: left;
+	display: block;
+	color: var(--head-text);
+	text-align: left;
+	font-weight: 100;
+	padding-top: 0px;
+	padding-right: 5%;
+	font-style: italic;
+	font-size: 2.5em;
+	transform: translateY(-10%);
+}
+li.top a {
+	display: block;
+	color: var(--head-text);
+	text-align: center;
+	font-weight: 300;
+	font-size: 1em;
+	padding: .75em 2.5em;
+	text-decoration: none;/*margin-top: .125em;*/
+}
+li.top a:hover {
+	color: var(--head-text-h);
+}
+li.top a.active {
+	text-decoration: underline;
+}
+/* Main Page Definitions */
+#bodyWrap {
+	background-color: var(--body-bg-out);
+	width: 100%;
+	min-height: calc(100% - 1.5em);
+	height: auto;
+	/*position: reletive;*/
+	/*top: 4.5em;*/
+	left: 0;
+}
+#grad {
+	background: linear-gradient(to right, var(--body-bg-out), var(--body-bg-central) 1em, var(--body-bg-central) 51em, var(--body-bg-out) 52em);
+	top: 0em;
+	width: 52em;
+	min-height: 100%;
+	height: auto;
+	margin: auto; /* Centers it */
+	position: reletive;
+}
+#content {
+	background-color: var(--body-bg-central);
+	top: 0em;
+	margin: auto;
+	height: auto;
+	min-height: 100%;
+	width: 50em;
+	position: reletive;
+}
+.bodyText {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 150%;
+	text-align: center;
+	/*padding-top: 85px;*/
+	color: var(--body-text);
+}
+#foot {
+	background-color: var(--head-bg);
+	bottom: 0;
+	height: 1.5em;
+	position: reletive;
+	width: 100%;
+}
+
+.footText {
+	font-size: 60%;
+	text-align: center;
+	padding-top: 0.5em;
+	color: var(--head-text);
+}
