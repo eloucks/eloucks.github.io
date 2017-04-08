@@ -1,0 +1,70 @@
+:root {
+ --head-bg: #caebf2;
+ --body-bg-central: #efefef;
+ --body-bg-out: #a9a9a9;
+ --foot-bg: #222; /* #3c3c3c */
+ --body-text: #657b83;
+ --head-text: #00303f;
+ --head-text-h: #ff383f;
+ --foot-text: #a9a9a9;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 2em;
+  padding-top: 55px;
+}
+.foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2em;
+  background-color: var(--foot-bg);
+  color: var(--foot-text);
+}
+body > .container {
+  margin-bottom: 3em;
+}
+
+/* There is some prep in here for a future color scheme change */
+.navbg {background-color: var(--head-bg);}
+.navtxt {color: var(--head-text);}
+.navtxt :hover
+{
+	color: var(--head-text-h);
+}
+.active
+{
+	text-decoration: underline;
+}
+.lato
+{
+	font-family: 'Lato';
+	font-style: normal;
+	height: auto;
+}
+
+.pad-top-70 {padding-top: 70px;}
+.pad-top-3 {padding-top: 3em;}
+.pad-top-7 {padding-top: 7px;}
+.pad-top-foot {padding-top: 0.5em;}
+.pad-bot-30 {padding-bottom: 30px;}
+.mar-top-30 {margin-top: 30px;}
+.mar-bot-30 {margin-bottom: 30px;}
+.fw100 {font-weight: 100;}
+.fw150 {font-weight: 150;}
+.fw200 {font-weight: 200;}
+.fsh {font-size: 0.5em;}
+.fs75 {font-size: 0.75em;}
+.fs1 {font-size: 1em;}
+.fs15 {font-size: 1.5em;}
+.fs2 {font-size: 2em;}
+.fs25 {font-size: 2.5em;}
+.italic {font-style: italic;}
+.left {text-align: left;}
+.center {text-align: center;;}
+.right {text-align: right;}
