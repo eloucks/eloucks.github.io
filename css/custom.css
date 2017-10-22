@@ -47,6 +47,12 @@ body > .container {
 	font-style: normal;
 	height: auto;
 }
+.raleway
+{
+	font-family: 'Raleway';
+	font-style: normal;
+	height: auto;
+}
 
 .pad-top-70 {padding-top: 70px;}
 .pad-top-3 {padding-top: 3em;}
@@ -56,8 +62,8 @@ body > .container {
 .mar-top-30 {margin-top: 30px;}
 .mar-bot-30 {margin-bottom: 30px;}
 .fw100 {font-weight: 100;}
-.fw150 {font-weight: 150;}
-.fw200 {font-weight: 200;}
+.fw300 {font-weight: 300;}
+.fw400 {font-weight: 400;}
 .fsh {font-size: 0.5em;}
 .fs75 {font-size: 0.75em;}
 .fs1 {font-size: 1em;}
@@ -68,3 +74,10 @@ body > .container {
 .left {text-align: left;}
 .center {text-align: center;;}
 .right {text-align: right;}
+.jumbotron p {
+	font-family: 'Lato';
+	font-style: normal;
+	height: auto;
+  font-size: 1.5em;
+  font-weight: 300;
+}
